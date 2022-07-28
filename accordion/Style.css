@@ -9,6 +9,8 @@ html, body{
     background-color: #6d6d6d61;
     padding: 20px 60px;
     border-radius: 15px;
+    border-color: azure;
+    border: 1px solid rgb(255, 255, 255);
 }
 .container{
     display: flex;
