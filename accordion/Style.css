@@ -62,7 +62,7 @@ html, body{
 
 .accordion-item.active .accordion-item__content{
     height: 45px;
-    padding: 12px 20px 3px;
+    padding: 12px 12px 3px;
 }
 .accordion-item.active .accordion-item__trigger::before{
     content: "-";
