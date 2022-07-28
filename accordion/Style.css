@@ -1,18 +1,14 @@
 html, body{
+    background-image: url(img/Parallax-Background-Dark-02.jpg);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: #4f4f4f;
 }
 .index{
-    background-color: #281f15;
+    background-color: #6d6d6d61;
     padding: 20px 60px;
-    border-radius: 20px;
-    /* height: 350px; */
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; */
+    border-radius: 15px;
 }
 .container{
     display: flex;
@@ -21,7 +17,7 @@ html, body{
     height: 100vh  ;
 }
 .header_text{
-    font-size: 42px;
+    font-size: 27px;
     margin-bottom: 20px;
     margin-top: 0;
     text-align: center;
@@ -35,9 +31,9 @@ html, body{
     width: 100%;
 }
 .accordion-item__content{
-    background-color: #423324;
+    background-color: #6b6b6bd2;
     font-size: 15px;
-    padding: 0px 10px;
+    padding: 0px 20px 0px;
     max-width: 500px;
     position: relative;
     height: 0px;
@@ -46,8 +42,9 @@ html, body{
     transition: .4s ease-in-out;
 }
 .accordion-item__trigger{
-    background-color: #423324;
-    padding: 6px;
+    background-color: #6b6b6bd2;
+    padding: 7px 20px;
+    font-size: 17px;
     cursor: pointer;
     position: relative;
 }
