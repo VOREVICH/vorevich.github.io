@@ -120,3 +120,12 @@ body{
 .panel.active div {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;}
+    
+    @media screen and (max-width: 1397px){
+        body{flex-direction: column;}
+        .container{height: 50vh;}
+    }
+    @media screen and (max-width: 600px){
+        .panel-container{height: 227px;width: 403px;}
+        .Gods{width: -webkit-fill-available;}
+    }
