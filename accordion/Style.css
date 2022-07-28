@@ -124,6 +124,7 @@ position: relative;
     @media screen and (max-width: 1397px){
         body{flex-direction: column;}
         .container{height: 50vh;}
+        .panel-container{margin-right: unset;}
     }
     @media screen and (max-width: 600px){
         .panel-container{height: 227px;width: 403px;}
