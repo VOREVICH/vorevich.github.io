@@ -6,6 +6,7 @@ html, body{
     font-family: Verdana, sans-serif;
     color: white;
 }
+.body{height: 1000px;}
 .index{
     background-color: #6d6d6d61;
     padding: 20px 60px;
