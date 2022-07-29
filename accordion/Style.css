@@ -6,7 +6,10 @@ html, body{
     font-family: Verdana, sans-serif;
     color: white;
 }
-body{height: 1000px;}
+body{height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;}
 .index{
     background-color: #6d6d6d61;
     padding: 20px 60px;
@@ -125,7 +128,7 @@ position: relative;
     .accordion-item__trigger{font-size: 15px;}
     .accordion-item.active .accordion-item__content{height: 60px;}
     .accordion-item__content{max-width: unset; font-size: 11px;}
-    .panel-container{margin-right: unset; width: 409px; height: 216px; margin-top: 94px;}
+    .panel-container{margin-right: unset; width: 409px; height: 216px; margin-top: 90px;}
 }
 @media (max-width: 1400px) {
     .container{flex-direction: column; height: unset; margin-left: unset;}
@@ -136,7 +139,7 @@ position: relative;
     .accordion-item__trigger{font-size: 15px;}
     .accordion-item.active .accordion-item__content{height: 60px;}
     .accordion-item__content{max-width: unset; font-size: 11px;}
-    .panel-container{margin-right: unset; width: 409px; height: 216px; margin-top: 40px;}
+    .panel-container{margin-right: unset; width: 409px; height: 216px; margin-top: 90px;}
 }
 @media (max-width: 465px) {
     .index{padding: 20px 20px;}
@@ -146,5 +149,6 @@ position: relative;
     .accordion-item__trigger{font-size: 10px;}
     .accordion-item.active .accordion-item__content{height: 73px;}
     .accordion-item__content{max-width: unset; font-size: 9px;}
-    .panel-container{margin-right: unset; width: 284px; height: 165px; margin-top: 40px;}
+    .panel-container{margin-right: unset; width: 284px; height: 165px; margin-top: 70px;}
+    body{height: 800px;}
 }
