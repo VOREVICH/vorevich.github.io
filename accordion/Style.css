@@ -45,7 +45,7 @@ body{height: 600px;
 .accordion-item__content{
     background-color: #4a4a4ad2;
     font-size: 13px;
-    text-align: center;
+    text-align: left;
     max-width: 500px;
     position: relative; 
     height: 0px;
@@ -153,7 +153,7 @@ position: relative;
     .family_block{width: 204px;}
     .accordion-item{font-size: unset;}
     .accordion-item__trigger{font-size: 10px;}
-    .accordion-item.active .accordion-item__content{height: 73px; padding: 9px 36px 8px;}
+    .accordion-item.active .accordion-item__content{height: 57px; padding: 9px 15px 8px;}
     .accordion-item__content{max-width: unset; font-size: 9px;}
     body{height: 1000px;}
     .panel-container{margin-right: unset; width: 284px; height: 165px; margin-top: 70px;}
