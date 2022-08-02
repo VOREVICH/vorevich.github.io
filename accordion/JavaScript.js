@@ -43,3 +43,12 @@ const nextSlide = () => {
 
 
 nextbutton.addEventListener('click', nextSlide)
+
+const prevSlide = () => {
+  position -= 600
+  sliderLine.style.left = position +'px'
+}
+
+
+
+prevbutton.addEventListener('click', prevSlide)
