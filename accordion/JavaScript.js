@@ -24,3 +24,22 @@ function removeActiveClasses() {
         panel.classList.remove('active');
     });
 }
+
+
+
+const sliderLine = document.querySelector('.slider-line'),
+      prevbutton = document.querySelector('.button-prev')
+      nextbutton = document.querySelector('.button-next')
+      dots = document.querySelector('.dot')
+let position = 0,
+    dotIndex = 0
+
+
+const nextSlide = () => {
+      position += 600
+      sliderLine.style.left = -position +'px'
+}
+
+
+
+nextbutton.addEventListener('click', nextSlide)
