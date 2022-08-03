@@ -28,27 +28,59 @@ function removeActiveClasses() {
 
 
 const sliderLine = document.querySelector('.slider-line'),
-      prevbutton = document.querySelector('.button-prev')
-      nextbutton = document.querySelector('.button-next')
-      dots = document.querySelector('.dot')
+      prevbutton = document.querySelector('.button-prev'),
+      nextbutton = document.querySelector('.button-next'),
+      dots = document.querySelectorAll(".dot"),
+      Carusel = document.querySelector('.carusel');
 let position = 0,
-    dotIndex = 0
+    dotIndex = 0;
 
 
 const nextSlide = () => {
-      position += 600
+  if(position < (dots.length - 1) * Carusel.width) {
+     position += 600
+     dotIndex++
+  }else {
+    position = 0
+    dotIndex = 0
+  }
       sliderLine.style.left = -position +'px'
+      thisSlide(dotIndex)
 }
 
-
-
-nextbutton.addEventListener('click', nextSlide)
 
 const prevSlide = () => {
-  position -= 600
-  sliderLine.style.left = position +'px'
+  if(position > 0) {
+     position -= 600
+     dotIndex--
+  }else {
+    position = (dots.length - 1) * Carusel.width
+    dotIndex = (dots.length - 1)
+  }
+      sliderLine.style.left = -position +'px'
+      thisSlide(dotIndex)
+}
+
+const thisSlide = (Index) => {
+  for(let dot of dots) {
+    dot.classList.remove('activ')
+  }
+  dots[Index].classList.add('activ')
 }
 
 
 
+
+//Eventlistenner
 prevbutton.addEventListener('click', prevSlide)
+nextbutton.addEventListener('click', nextSlide)
+dots.forEach((dot, Index) =>{
+  dot.addEventListener('click', () => {
+    position = 600 * Index
+    sliderLine.style.left = -position +'px'
+    dotIndex = Index
+    thisSlide(dotIndex)
+  
+  
+  })
+})
