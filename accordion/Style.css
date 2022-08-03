@@ -223,3 +223,8 @@ position: relative;
 .button-next:hover, .button-prev:hover, .dot:hover{background:rgba(135, 134, 134, 0.43); }
 .button-next:active, .button-prev:active, .dot:active{background:rgba(135, 134, 134, 0.43); }
 .activ {background: rgba(255, 255, 255, 0.43);}
+
+
+@media(max-width: 390px){
+    .slider-wrapper{width: 260px;}
+}
