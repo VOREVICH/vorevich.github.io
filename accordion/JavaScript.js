@@ -38,7 +38,7 @@ let position = 0,
 
 const nextSlide = () => {
   if(position < (dots.length - 1) * Carusel.width) {
-     position += 600
+     position += Carusel.width
      dotIndex++
   }else {
     position = 0
@@ -51,7 +51,7 @@ const nextSlide = () => {
 
 const prevSlide = () => {
   if(position > 0) {
-     position -= 600
+     position -= Carusel.width
      dotIndex--
   }else {
     position = (dots.length - 1) * Carusel.width
@@ -76,7 +76,7 @@ prevbutton.addEventListener('click', prevSlide)
 nextbutton.addEventListener('click', nextSlide)
 dots.forEach((dot, Index) =>{
   dot.addEventListener('click', () => {
-    position = 600 * Index
+    position = Carusel.width * Index
     sliderLine.style.left = -position +'px'
     dotIndex = Index
     thisSlide(dotIndex)

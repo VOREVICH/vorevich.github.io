@@ -226,5 +226,7 @@ position: relative;
 
 
 @media(max-width: 390px){
-    .slider-wrapper{width: 260px;}
+    .slider-wrapper{width: 260px; margin-top: 60px}
+    .button-prev{margin-top: 125px; width: 30px; height: 30px;}
+    .button-next{margin-top: 125px; width: 30px; height: 30px; margin-left: -35px;}
 }
