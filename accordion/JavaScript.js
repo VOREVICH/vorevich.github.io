@@ -71,7 +71,7 @@ const thisSlide = (Index) => {
 
 
 
-//Eventlistenner
+//----------------------------Eventlistenner--------------------------------
 prevbutton.addEventListener('click', prevSlide)
 nextbutton.addEventListener('click', nextSlide)
 dots.forEach((dot, Index) =>{
@@ -84,3 +84,14 @@ dots.forEach((dot, Index) =>{
   
   })
 })
+//-------------------Интервал-------------------------------
+// setInterval(() => {
+//   nextSlide()
+// }, 3000);
+var timer = 0;
+makeTimer(); //Создаем интервал 
+function makeTimer(){
+   clearInterval(timer) //Очистим интервал, это позволит прервать его работу и отменить перелистывание
+   timer = setInterval(() => {
+    nextSlide()
+  }, 3000);}
