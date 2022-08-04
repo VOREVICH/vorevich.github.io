@@ -85,13 +85,9 @@ dots.forEach((dot, Index) =>{
   })
 })
 //-------------------Интервал-------------------------------
-// setInterval(() => {
-//   nextSlide()
-// }, 3000);
-var timer = 0;
-makeTimer(); //Создаем интервал 
+makeTimer();
 function makeTimer(){
-   clearInterval(timer) //Очистим интервал, это позволит прервать его работу и отменить перелистывание
+   clearInterval(timer)
    timer = setInterval(() => {
     nextSlide()
   }, 3000);}
