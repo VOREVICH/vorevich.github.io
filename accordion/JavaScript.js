@@ -90,4 +90,4 @@ function makeTimer(){
    clearInterval(timer)
    timer = setInterval(() => {
     nextSlide()
-  }, 3000);}
+  }, 6000);}
