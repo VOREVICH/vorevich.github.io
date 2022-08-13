@@ -1,0 +1,435 @@
+.cli-social {
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+@media (min-width:768px) {
+   .cli-social {
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+}.cli-social.full {
+   width: 100%}
+.cli-social .cli-social-btn {
+   color: #fff;
+}
+.cli-social .cli-social-btn:hover {
+   color: #fff;
+}
+.cli-social .cli-social-btn svg {
+   width: auto;
+}
+.cli-social-btn {
+   display: -webkit-inline-box;
+   display: -ms-inline-flexbox;
+   display: inline-flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   padding: 10px 16px;
+   border-radius: 6px;
+   font-size: 15px;
+   color: #fff;
+   text-decoration: none;
+}
+.cli-social-btn:hover {
+   color: #fff;
+   text-decoration: none;
+}
+.cli-social-btn>*:not(:last-child) {
+   margin-right: 10px;
+}
+.cli-social-btn:not(:last-child) {
+   margin-bottom: 10px;
+}
+@media (min-width:768px) {
+   .cli-social-btn: not(:last-child) {
+   margin-right: 10px;
+   margin-bottom: 0;
+}
+}.cli-social-icon {
+   margin-right: 10px;
+}
+.cli-social-link {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   width: 56px;
+   height: 56px;
+   border-radius: 100%}
+.cli-social-link:not(:last-child) {
+   margin-right: 10px;
+}
+.cli-social-link:not(.theme) {
+   color: #fff;
+}
+.cli-social-link svg {
+   width: 50%;
+   height: 50%}
+.cli-social-link .image-select {
+   width: 100%}
+.cli-social-btn.viber, .cli-social-link:not(.theme).viber {
+   background: #6347c3;
+}
+.cli-social-btn.viber:hover, .cli-social-link:not(.theme).viber:hover {
+   background: #6347c3;
+}
+.cli-social-btn.viber:after, .cli-social-link:not(.theme).viber:after {
+   background: #6347c3;
+}
+.cli-social-btn.twitter, .cli-social-link:not(.theme).twitter {
+   background: #7cccff;
+}
+.cli-social-btn.twitter:hover, .cli-social-link:not(.theme).twitter:hover {
+   background: #7cccff;
+}
+.cli-social-btn.twitter:after, .cli-social-link:not(.theme).twitter:after {
+   background: #7cccff;
+}
+.cli-social-btn.whatsapp, .cli-social-link:not(.theme).whatsapp {
+   background: #6cd6a2;
+}
+.cli-social-btn.whatsapp:hover, .cli-social-link:not(.theme).whatsapp:hover {
+   background: #6cd6a2;
+}
+.cli-social-btn.whatsapp:after, .cli-social-link:not(.theme).whatsapp:after {
+   background: #6cd6a2;
+}
+.cli-social-btn.telegram, .cli-social-link:not(.theme).telegram {
+   background: #29a8e8;
+}
+.cli-social-btn.telegram:hover, .cli-social-link:not(.theme).telegram:hover {
+   background: #29a8e8;
+}
+.cli-social-btn.telegram:after, .cli-social-link:not(.theme).telegram:after {
+   background: #29a8e8;
+}
+.cli-social-btn.vkontakte, .cli-social-link:not(.theme).vkontakte {
+   background: #07f;
+}
+.cli-social-btn.vkontakte:hover, .cli-social-link:not(.theme).vkontakte:hover {
+   background: #07f;
+}
+.cli-social-btn.vkontakte:after, .cli-social-link:not(.theme).vkontakte:after {
+   background: #07f;
+}
+.cli-social-btn.discord, .cli-social-link:not(.theme).discord {
+   background: #5865f2;
+}
+.cli-social-btn.discord:hover, .cli-social-link:not(.theme).discord:hover {
+   background: #5865f2;
+}
+.cli-social-btn.discord:after, .cli-social-link:not(.theme).discord:after {
+   background: #5865f2;
+}
+.cli-social-btn.ok, .cli-social-link:not(.theme).ok {
+   background: #ff8002;
+}
+.cli-social-btn.ok:hover, .cli-social-link:not(.theme).ok:hover {
+   background: #ff8002;
+}
+.cli-social-btn.ok:after, .cli-social-link:not(.theme).ok:after {
+   background: #ff8002;
+}
+.cli-social-btn.dzen, .cli-social-link:not(.theme).dzen {
+   background: #000;
+}
+.cli-social-btn.dzen:hover, .cli-social-link:not(.theme).dzen:hover {
+   background: #000;
+}
+.cli-social-btn.dzen:after, .cli-social-link:not(.theme).dzen:after {
+   background: #000;
+}
+.cli-social-btn.tiktok, .cli-social-link:not(.theme).tiktok {
+   background: -o-linear-gradient(354.12deg, #67c3cd 1.77%, #e42c59 100%);
+   background: linear-gradient(95.88deg, #67c3cd 1.77%, #e42c59 100%);
+}
+.cli-social-btn.tiktok:hover, .cli-social-link:not(.theme).tiktok:hover {
+   background: -o-linear-gradient(354.12deg, #67c3cd 1.77%, #e42c59 100%);
+   background: linear-gradient(95.88deg, #67c3cd 1.77%, #e42c59 100%);
+}
+.cli-social-btn.tiktok:after, .cli-social-link:not(.theme).tiktok:after {
+   background: -o-linear-gradient(354.12deg, #67c3cd 1.77%, #e42c59 100%);
+   background: linear-gradient(95.88deg, #67c3cd 1.77%, #e42c59 100%);
+}
+.cli-social-btn.youtube, .cli-social-link:not(.theme).youtube {
+   background: red;
+}
+.cli-social-btn.youtube:hover, .cli-social-link:not(.theme).youtube:hover {
+   background: red;
+}
+.cli-social-btn.youtube:after, .cli-social-link:not(.theme).youtube:after {
+   background: red;
+}
+.cli-social-btn.twitch, .cli-social-link:not(.theme).twitch {
+   background: #8c44f7;
+}
+.cli-social-btn.twitch:hover, .cli-social-link:not(.theme).twitch:hover {
+   background: #8c44f7;
+}
+.cli-social-btn.twitch:after, .cli-social-link:not(.theme).twitch:after {
+   background: #8c44f7;
+}
+.cli-social-btn.linkedin, .cli-social-link:not(.theme).linkedin {
+   background: #0961b8;
+}
+.cli-social-btn.linkedin:hover, .cli-social-link:not(.theme).linkedin:hover {
+   background: #0961b8;
+}
+.cli-social-btn.linkedin:after, .cli-social-link:not(.theme).linkedin:after {
+   background: #0961b8;
+}
+.cli-social-btn.soundcloud, .cli-social-link:not(.theme).soundcloud {
+   background: #ea660e;
+}
+.cli-social-btn.soundcloud:hover, .cli-social-link:not(.theme).soundcloud:hover {
+   background: #ea660e;
+}
+.cli-social-btn.soundcloud:after, .cli-social-link:not(.theme).soundcloud:after {
+   background: #ea660e;
+}
+.cli-social-btn.pinterest, .cli-social-link:not(.theme).pinterest {
+   background: #da0021;
+}
+.cli-social-btn.pinterest:hover, .cli-social-link:not(.theme).pinterest:hover {
+   background: #da0021;
+}
+.cli-social-btn.pinterest:after, .cli-social-link:not(.theme).pinterest:after {
+   background: #da0021;
+}
+.cli-social-btn.behance, .cli-social-link:not(.theme).behance {
+   background: #0053f2;
+}
+.cli-social-btn.behance:hover, .cli-social-link:not(.theme).behance:hover {
+   background: #0053f2;
+}
+.cli-social-btn.behance:after, .cli-social-link:not(.theme).behance:after {
+   background: #0053f2;
+}
+.cli-social-btn.snapchat, .cli-social-link:not(.theme).snapchat {
+   background: #f2ef00;
+   color: #000;
+}
+.cli-social-btn.snapchat:hover, .cli-social-link:not(.theme).snapchat:hover {
+   background: #f2ef00;
+}
+.cli-social-btn.snapchat:after, .cli-social-link:not(.theme).snapchat:after {
+   background: #f2ef00;
+}
+.cli-social-btn.reddit, .cli-social-link:not(.theme).reddit {
+   background: #f24101;
+}
+.cli-social-btn.reddit:hover, .cli-social-link:not(.theme).reddit:hover {
+   background: #f24101;
+}
+.cli-social-btn.reddit:after, .cli-social-link:not(.theme).reddit:after {
+   background: #f24101;
+}
+.cli-social-btn.moymir, .cli-social-link:not(.theme).moymir {
+   background: #005ff9;
+}
+.cli-social-btn.moymir:hover, .cli-social-link:not(.theme).moymir:hover {
+   background: #005ff9;
+}
+.cli-social-btn.moymir:after, .cli-social-link:not(.theme).moymir:after {
+   background: #005ff9;
+}
+.cli-social-btn.moymir svg, .cli-social-link:not(.theme).moymir svg {
+   color: #ff9e00;
+}
+.cli-cover {
+   width: 100%;
+   padding-top: 80px;
+   padding-bottom: 80px;
+}
+@media (min-width:1200px) {
+   .cli-cover {
+   padding-top: 120px;
+   padding-bottom: 120px;
+}
+}.cli-cover .cli-cover-form.short .cli-btn {
+   -ms-flex-negative: 0;
+   flex-shrink: 0;
+}
+.cli-cover .cli-cover-form.short .cli-select-wrapper {
+   width: 100%;
+   margin-bottom: 10px;
+}
+@media (min-width:1200px) {
+   .cli-cover .cli-cover-form.short .cli-select-wrapper {
+   margin-right: 10px;
+   margin-bottom: 0;
+}
+}.cli-cover .cli-display {
+   margin-bottom: 16px;
+}
+@media (min-width:768px) {
+   .cli-cover .cli-display {
+   margin-bottom: 24px;
+}
+}.cli-cover .cli-subtitle {
+   margin-bottom: 32px;
+}
+@media (min-width:768px) {
+   .cli-cover .cli-subtitle {
+   margin-bottom: 40px;
+}
+}.cli-cover .cli-title-1 {
+   margin-bottom: 16px;
+}
+@media (min-width:768px) {
+   .cli-cover .cli-title-1 {
+   margin-bottom: 24px;
+}
+}.cli-cover .cli-body-2:not(:last-child) {
+   margin-bottom: 80px;
+}
+.cli-cover .cli-cover-btns:not(:last-child) {
+   margin-bottom: 24px;
+}
+.cli-cover .cli-btn {
+   width: 100%}
+@media (min-width:768px) {
+   .cli-cover .cli-btn {
+   width: unset;
+}
+}.cli-cover .cli-btn:not(:last-child) {
+   margin-right: 0;
+   margin-bottom: 16px;
+}
+@media (min-width:768px) {
+   .cli-cover .cli-btn: not(:last-child) {
+   margin-right: 16px;
+   margin-bottom: 0;
+}
+}.cli-cover-image {
+   position: relative;
+   width: 100%;
+   height: 260px;
+   margin-bottom: 32px;
+   border-radius: 24px;
+   -o-object-fit: cover;
+   object-fit: cover;
+}
+.cli-cover-image img, .cli-cover-image svg {
+   width: 100%;
+   height: 100%}
+.cli-cover-image img {
+   -o-object-fit: inherit;
+   object-fit: inherit;
+}
+@media (min-width:576px) {
+   .cli-cover-image {
+   margin-bottom: 64px;
+   height: 360px;
+}
+}@media (min-width:1200px) {
+   .cli-cover-image {
+   margin-bottom: 0;
+   height: 540px;
+}
+}@media (max-width:575px) {
+   .half-left: not(.half-mobile) .cli-display, .half-right:not(.half-mobile) .cli-display {
+   color: #fff;
+}
+.half-left:not(.half-mobile) .cli-subtitle, .half-left:not(.half-mobile) .cli-body-2, .half-right:not(.half-mobile) .cli-subtitle, .half-right:not(.half-mobile) .cli-body-2 {
+   color: rgba(255, 255, 255, .8);
+}
+}.cli-cover.mockup {
+   overflow: hidden;
+}
+@media (min-width:768px) {
+   .cli-cover-head {
+   margin-bottom: 80px;
+}
+}.cli-cover-mockup {
+   margin-bottom: 40px;
+}
+@media (min-width:768px) {
+   .cli-cover-mockup {
+   margin-bottom: 0;
+}
+}@media (min-width:1200px) {
+   .cli-cover-form.short {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: start;
+   -ms-flex-align: start;
+   align-items: flex-start;
+}
+.cli-cover-form.short .cli-form-field:not(:last-child), .cli-cover-form.short .cli-btn:not(:last-child) {
+   margin-right: 10px;
+}
+}@media (max-width:1199px) {
+   .cli-cover-form.short .cli-form-field: not(:last-child), .cli-cover-form.short .cli-btn:not(:last-child) {
+   margin-bottom: 10px;
+}
+.cli-cover-form.short .cli-btn {
+   width: 100%}
+}.cli-cover-form.big .cli-form-field {
+   max-width: 100%}
+.cli-cover-form.big .cli-btn {
+   width: 100%}
+.cli-cover-form.big .cli-form-field-input {
+   margin-bottom: 10px;
+}
+.cli-cover-form-outer {
+   padding: 24px;
+   background: #fff;
+   border-radius: 16px;
+   z-index: 0;
+}
+@media (min-width:992px) {
+   .cli-cover-form-outer {
+   padding: 40px;
+}
+}.cli-cover-form-outer .cli-body-3 {
+   text-align: center;
+   z-index: 1;
+}
+@media (min-width:768px) {
+   .cli-cover-form-outer .cli-body-3 {
+   text-align: left;
+}
+}.cli-cover-form-outer .cli-body-3:not(:last-child) {
+   margin-bottom: 24px;
+}
+.cli-form-block .cli-select-wrapper .cli-select-area, .cli-cover-form .cli-select-wrapper .cli-select-area {
+   border-width: 2px;
+   border-color: #ccc;
+}
+.cli-form-block .cli-btn.loading, .cli-cover-form .cli-btn.loading {
+   position: relative;
+}
+.cli-form-block .cli-btn.loading .cli-btn-text, .cli-cover-form .cli-btn.loading .cli-btn-text {
+   visibility: hidden;
+}
+.cli-form-block .cli-btn.loading .cli-btn-loader, .cli-cover-form .cli-btn.loading .cli-btn-loader {
+   display: block;
+   position: absolute;
+   width: 25%;
+   height: 25%;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+.cli-form-block .cli-btn.disabled, .cli-cover-form .cli-btn.disabled {
+   pointer-events: none;
+}
+.cli-form-block .cli-btn-loader, .cli-cover-form .cli-btn-loader {
+   display: none;
+}
