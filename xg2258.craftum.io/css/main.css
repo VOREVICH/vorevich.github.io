@@ -5327,46 +5327,97 @@ img[data-zoomable="true"], svg[data-zoomable="true"] {
 	margin: 5px auto;
 }
 .accordion__item .accordion__title {
-	position: relative;
-	display: block;
-	padding: 13px 60px 15px 13px;
-	margin-bottom: 2px;
-	color: #202020;
-	font-size: 28px;
-	text-decoration: none;
-	background-color: #ee0000;
-	border-radius: 3px;
-	-webkit-transition: background-color 0.2s;
-	transition: background-color 0.2s;
+.accordion__item .accordion__title {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
   cursor: pointer;
-  box-shadow: 1px 1px 6px 1px;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
 }
-.accordion__title-text{text-align: center; color: white;}
-.accordion__item .accordion__title:hover {
-	background-color: #bb0000;
-	transition: all 0.5s ease-out;
+/* 3 */
+.accordion__item .accordion__title {
+  background: rgb(0,172,238);
+background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  
 }
-.accordion__item .accordion-active {
-	background-color: #ee0000;
+.accordion__item .accordion__title span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
-.accordion__item .accordion__title .accordion__arrow {
-	position: absolute;
-	top: 20px; right: 10px;
-	display: inline-block;
-	vertical-align: middle;
-	width: 30px;
-	height: 30px;
-	text-align: center;
-	color: #fff;
-	line-height: 31px;
-	font-size: 20px;
-	font-weight: 700;
-	margin-right: 5px;
-	background-color: #bb0000;
-	border-radius: 50%;
-	-webkit-transition: all 0.2s ease-out;
-	transition: all 0.2s ease-out;
+.accordion__item .accordion__title:before,
+.accordion__item .accordion__title:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
 }
+.accordion__item .accordion__title:before {
+  height: 0%;
+  width: 2px;
+}
+.accordion__item .accordion__title:after {
+  width: 0%;
+  height: 2px;
+}
+.accordion__item .accordion__title:hover{
+   background: transparent;
+  box-shadow: none;
+}
+.accordion__item .accordion__title:hover:before {
+  height: 100%;
+}
+.accordion__item .accordion__title:hover:after {
+  width: 100%;
+}
+.accordion__item .accordion__title span:hover{
+   color: rgba(2,126,251,1);
+}
+.accordion__item .accordion__title span:before,
+.accordion__item .accordion__title span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+   background: rgba(2,126,251,1);
+  transition: all 0.3s ease;
+}
+.accordion__item .accordion__title span:before {
+  width: 2px;
+  height: 0%;
+}
+.accordion__item .accordion__title span:after {
+  width: 0%;
+  height: 2px;
+}
+.accordion__item .accordion__title span:hover:before {
+  height: 100%;
+}
+.accordion__item .accordion__title span:hover:after {
+  width: 100%;
+}
+
+/* 4 */
+
 .accordion__item .accordion__rotate {
 	transform: rotate(225deg);
 }
