@@ -5391,19 +5391,10 @@ img[data-zoomable="true"], svg[data-zoomable="true"] {
    justify-content: center;
 }
 .action {
-   margin-top: -12px;
-   align-self: center;
-   transform: perspective(300px) rotateX(15deg) scaleY(0.8);
-   transition: all 0.5s;
-   font-family: Impact, Charcoal, sans-serif;
-   font-size: 40px;
-   letter-spacing: 3px;
-   color: #FFF;
-   text-shadow: 0 0 10px rgba(0, 0, 0, 0.9), 0 4px 0 #BFE2FF;
-}
-.accordion__title-text:hover .action {
-   transform: perspective(1000px) rotateX(15deg) scale(1.07);
-   text-shadow: 0 0 10px black, 0 2px 0 #bfe2ff;
+  font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #FFF;
 }
 @media (max-width:767px) {
    .action {
